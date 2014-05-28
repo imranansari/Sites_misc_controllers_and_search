@@ -37,7 +37,7 @@ import org.apache.lucene.store.FSDirectory;
 public class NewsSearcher {
 
 	private static Logger logger = LogManager.getLogger(com.jts.search.utils.NewsSearcher.class);
-  
+   
 	
 	/**
 	 * Static var that can be overridden
