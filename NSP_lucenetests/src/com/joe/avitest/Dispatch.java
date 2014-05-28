@@ -20,7 +20,7 @@ public class Dispatch implements Seed2 {
 	static Set<String> paramStuff ;
 	private ICS ics;
     /**
-     * PSEUDO CODE ONLY
+     * PSEUDO CODE ONLY 
      * 
      */
 	@Override
@@ -35,7 +35,7 @@ public class Dispatch implements Seed2 {
 			 
 			
 				 
-				callPage( ics, getArgList());
+				callPage( ics);
 			
 		return null;
 	}
@@ -72,11 +72,11 @@ public class Dispatch implements Seed2 {
 	 * @param pagename
 	 * @param packedArgs
 	 */
-	protected void callPage(ICS ics, FTValList argList) {
+	protected void callPage(ICS ics) {
 		logger.info("Dispatch.callPage()");
    
         logger.info(Arrays.asList(  ics.pageCriteriaKeys(ics.GetVar("childpagename"))));
-        String s = ics.runTag("RENDER.CALLTEMPLATE", argList);
+        String s = ics.runTag("RENDER.CALLTEMPLATE", getArgList());
         if (s != null) {
             ics.StreamText(s);
         }
