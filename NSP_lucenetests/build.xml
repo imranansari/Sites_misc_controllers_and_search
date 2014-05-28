@@ -52,7 +52,7 @@
     </target>
 
     <target name="NewsSearcher">
-        <java classname="com.nsp.search.utils.NewsSearcher" failonerror="true" fork="yes">
+        <java classname="com.jts.search.utils.NewsSearcher" failonerror="true" fork="yes">
             <classpath refid="NSP_lucenetests.classpath"/>
         </java>
     </target>

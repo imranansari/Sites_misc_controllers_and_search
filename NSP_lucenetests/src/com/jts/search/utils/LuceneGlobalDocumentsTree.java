@@ -1,4 +1,4 @@
-package com.nsp.search.utils;
+package com.jts.search.utils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -50,7 +50,7 @@ public class LuceneGlobalDocumentsTree {
 	public static String _parentSubType = "FundDocuments";
 	
 	 
-	private static Logger logger = LogManager.getLogger(com.nsp.search.utils.LuceneGlobalDocumentsTree.class);
+	private static Logger logger = LogManager.getLogger(com.jts.search.utils.LuceneGlobalDocumentsTree.class);
 
 	/**
 	 * @param args

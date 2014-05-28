@@ -1,4 +1,4 @@
-package com.nsp.search.utils;
+package com.jts.search.utils;
 
 
 import java.io.File;
@@ -36,7 +36,7 @@ import org.apache.lucene.store.FSDirectory;
 
 public class NewsSearcher {
 
-	private static Logger logger = LogManager.getLogger(com.nsp.search.utils.NewsSearcher.class);
+	private static Logger logger = LogManager.getLogger(com.jts.search.utils.NewsSearcher.class);
 
 	
 	/**

@@ -1,4 +1,4 @@
-package com.nsp.search.utils;
+package com.jts.search.utils;
 
 import java.beans.FeatureDescriptor;
 import java.util.List;
